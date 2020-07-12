@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/raw/static/css/main.cda36a3e.chunk.css",
-    "main.js": "/raw/static/js/main.5dbbfa6a.chunk.js",
-    "main.js.map": "/raw/static/js/main.5dbbfa6a.chunk.js.map",
+    "main.css": "/raw/static/css/main.72c9c080.chunk.css",
+    "main.js": "/raw/static/js/main.102d1474.chunk.js",
+    "main.js.map": "/raw/static/js/main.102d1474.chunk.js.map",
     "runtime-main.js": "/raw/static/js/runtime-main.94f48573.js",
     "runtime-main.js.map": "/raw/static/js/runtime-main.94f48573.js.map",
-    "static/js/2.2c978956.chunk.js": "/raw/static/js/2.2c978956.chunk.js",
-    "static/js/2.2c978956.chunk.js.map": "/raw/static/js/2.2c978956.chunk.js.map",
+    "static/js/2.b017b74a.chunk.js": "/raw/static/js/2.b017b74a.chunk.js",
+    "static/js/2.b017b74a.chunk.js.map": "/raw/static/js/2.b017b74a.chunk.js.map",
     "index.html": "/raw/index.html",
-    "precache-manifest.d812bf03e3aed18b2441f9db92c1757c.js": "/raw/precache-manifest.d812bf03e3aed18b2441f9db92c1757c.js",
+    "precache-manifest.8719349e72ec20af9c8dcc3727f4ae35.js": "/raw/precache-manifest.8719349e72ec20af9c8dcc3727f4ae35.js",
     "service-worker.js": "/raw/service-worker.js",
-    "static/css/main.cda36a3e.chunk.css.map": "/raw/static/css/main.cda36a3e.chunk.css.map",
-    "static/js/2.2c978956.chunk.js.LICENSE.txt": "/raw/static/js/2.2c978956.chunk.js.LICENSE.txt"
+    "static/css/main.72c9c080.chunk.css.map": "/raw/static/css/main.72c9c080.chunk.css.map",
+    "static/js/2.b017b74a.chunk.js.LICENSE.txt": "/raw/static/js/2.b017b74a.chunk.js.LICENSE.txt",
+    "static/media/Frame.png": "/raw/static/media/Frame.2eca067e.png",
+    "static/media/Frame_168.png": "/raw/static/media/Frame_168.974ee1ed.png",
+    "static/media/facebook-icon.svg": "/raw/static/media/facebook-icon.71e5418e.svg",
+    "static/media/google-icon.svg": "/raw/static/media/google-icon.be2ac606.svg",
+    "static/media/hub.png": "/raw/static/media/hub.1fda105d.png",
+    "static/media/practi_1.png": "/raw/static/media/practi_1.ad251c5b.png",
+    "static/media/practi_2.png": "/raw/static/media/practi_2.2dc8c9bc.png",
+    "static/media/practi_3.png": "/raw/static/media/practi_3.18e27db0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.94f48573.js",
-    "static/js/2.2c978956.chunk.js",
-    "static/css/main.cda36a3e.chunk.css",
-    "static/js/main.5dbbfa6a.chunk.js"
+    "static/js/2.b017b74a.chunk.js",
+    "static/css/main.72c9c080.chunk.css",
+    "static/js/main.102d1474.chunk.js"
   ]
 }

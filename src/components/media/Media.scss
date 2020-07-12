@@ -1,0 +1,21 @@
+#media{
+            
+
+    & > div{
+        position: relative;
+        width: 180px;
+    }
+
+    & > div:nth-child(1)::before{
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 40px;
+        width: 1px;
+        border: 1px solid #e2e8f0;
+    }
+
+    & > div:nth-child(2){
+        margin-left: 10px;
+    }
+} 

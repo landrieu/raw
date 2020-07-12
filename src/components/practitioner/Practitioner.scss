@@ -1,0 +1,74 @@
+//$lightPurple: #333;
+#practitionner-page{
+    position: relative;
+    background-color: white;
+
+    #practitionner-title{
+        width: 410px;
+    }
+
+    #carousel{
+        height: 380px;
+    }
+
+    #right-arrow, #left-arrow{
+        top: 385px;
+    }
+
+    #right-arrow{
+        right: -50px;
+    }
+
+    #left-arrow{
+        left: -50px;
+    }
+
+    li{
+        padding: 3px 20px;
+    }
+    
+    li.active{
+        color: theme('colors.blue.500');
+        background-color: #E9D8FD;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 640px) {
+    #practitionner-page{
+        #practitionner-title{
+            width: auto;
+        }
+        #right-arrow, #left-arrow{
+            top: 325px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #practitionner-page{
+
+        #carousel-content{
+            transform: translateX(16.6%);
+        }
+
+        #right-arrow, #left-arrow{
+            top: 360px;
+        }
+
+        #right-arrow{
+            right: 60px;
+        }
+    
+        #left-arrow{
+            left: 60px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    #practitionner-page{
+        #right-arrow, #left-arrow{
+            top: 360px;
+        }
+    }
+}

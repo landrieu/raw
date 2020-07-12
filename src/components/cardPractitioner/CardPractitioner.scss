@@ -1,0 +1,12 @@
+.practitioner-card{
+    height: 300px;
+}
+
+.practitioner-card > div:nth-child(1){
+    width: calc(100% - 1.25rem);
+}
+
+.practitioner-card > div:nth-child(2){
+    margin-top: 50px;
+    padding-top: 70px;
+}

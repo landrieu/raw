@@ -1,0 +1,43 @@
+$redColor: red;
+
+#homepage{
+  #page-1{
+    max-width: 1800px;
+    margin: 0 auto;
+    max-height: 900px;
+    min-height: 600px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    #homepage-frame{
+      position: absolute;
+      right: 0;
+      bottom: -2px;
+      z-index: -1;
+      width: 45%;
+    }
+  }
+  
+  #homepage-media{
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #homepage #page-1{
+    
+    #media{
+      float: none;
+      width: fit-content;
+      margin: auto;
+    }
+    #homepage-media{
+      bottom: 0px;
+      right: 0px;
+    }
+    
+  }
+}
+

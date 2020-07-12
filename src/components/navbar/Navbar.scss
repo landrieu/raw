@@ -1,0 +1,64 @@
+$purpleColor: #7820a0;
+nav{
+    color: $purpleColor;
+    background-color: #fff;
+
+    #navbar-left-logo{
+        height: 48px;
+    }
+
+    .active{
+        display: block;
+    }  
+    #menu-mobile > div{
+        height: 3px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #navbar-left{
+        width: 100%;
+        border-bottom: 1px solid #ececec;
+    }
+    #menu-mobile{
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+        width: 50px;
+        align-items: center;
+        justify-content: space-around;
+        padding: 9px 0;
+    }
+    #mobileMenu{
+        margin-top: 0;
+        position: absolute;
+        font-size: 1.5rem;
+        top: 48px;
+        width: 100%;
+        background-color: white;
+        border-left: 1px solid #cabfbf;
+        border-right: 1px solid #cabfbfc4;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        li{
+            display: flex;
+            align-items: center;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 15px;
+            border-bottom: 1px solid #cabfbf;
+            height: 43px;
+        }
+
+        li:nth-child(4), li:nth-child(5) {
+            button{
+                background-color: white;
+                padding-left: 0;
+                color: #2d3748;
+            }
+        }
+    }
+}

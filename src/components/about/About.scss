@@ -1,0 +1,60 @@
+$purpleColor: #7820a0;
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#page-2{
+    width: 100%;
+    min-height: 500px;
+    
+    position: relative;
+    background-color: $purpleColor;
+
+    #about{
+        width: 80%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        #about-info > div{
+            width: 275px;
+        }
+    
+        
+    }
+
+    #big-frame-container{
+        position: absolute;
+        bottom: -300px;
+        right: -310px;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #page-2{
+    
+        #about{
+            width: 90%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        
+            #about-info > div{
+                width: 275px;
+            }   
+        }
+
+        #big-frame-container{
+            position: absolute;
+            bottom: -300px;
+            right: -360px;
+            z-index: 2;
+        }
+
+    }
+}
+

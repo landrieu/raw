@@ -23,3 +23,9 @@
         word-spacing: -2px;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    .card-hub{
+        width: 300px;
+    }
+}

@@ -32,7 +32,7 @@ export default class Hub extends Component {
                     </div>
                     <div>
                         <div className="font-bold text-2xl text-purple-900 sm:text-left text-center">Discover our hub</div>
-                        <div className="my-2 text-gray-600">Study online, continue your professionnal growth</div>
+                        <div className="my-2 text-gray-600 sm:text-left text-center">Study online, continue your professionnal growth</div>
                     </div>
                 </div>
                 

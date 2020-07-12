@@ -1,6 +1,4 @@
 #media{
-            
-
     & > div{
         position: relative;
         width: 180px;
@@ -19,3 +17,22 @@
         margin-left: 10px;
     }
 } 
+
+@media only screen and (max-width: 768px) {
+    #media{
+        & > div{
+            width: 145px;
+        }
+        & > div:nth-child(2){
+            margin-left: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #media{
+        & > div{
+            width: 140px;
+        }
+    }
+}

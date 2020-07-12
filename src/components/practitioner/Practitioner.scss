@@ -33,13 +33,11 @@
         font-weight: 500;
     }
 }
-@media only screen and (max-width: 640px) {
+
+@media only screen and (max-width: 1028px) {
     #practitionner-page{
-        #practitionner-title{
-            width: auto;
-        }
         #right-arrow, #left-arrow{
-            top: 325px !important;
+            top: 360px;
         }
     }
 }
@@ -56,19 +54,22 @@
         }
 
         #right-arrow{
-            right: 60px;
+            right: 0;
         }
     
         #left-arrow{
-            left: 60px;
+            left: 0;
         }
     }
 }
 
-@media only screen and (max-width: 1028px) {
+@media only screen and (max-width: 640px) {
     #practitionner-page{
+        #practitionner-title{
+            width: auto;
+        }
         #right-arrow, #left-arrow{
-            top: 360px;
+            top: 420px;
         }
     }
 }

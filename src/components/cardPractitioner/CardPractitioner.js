@@ -13,7 +13,7 @@ export default class CardPractitioner extends Component {
         return (
         <div key={this.props.index} className="absolute practitioner-card md:inline-block flex px-3 py-1 my-8 xl:w-1/4 lg:w-1/3 md:w-1/2 w-8/12" style={this.cardStyle(this.props.index)}>
             <div className="w-full absolute">
-                <img alt="pracitioner" className="m-auto" src={this.props.practitioner.photo}></img>
+                <img alt="pracitioner" className="m-auto sm:w-auto w-24" src={this.props.practitioner.photo}></img>
             </div>
             <div className="w-full p-4 border rounded border-gray-400 text-center">
                 <div className="font-bold">

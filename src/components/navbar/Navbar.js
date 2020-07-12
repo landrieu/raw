@@ -19,8 +19,8 @@ export default class Navbar extends Component {
         <nav className="md:w-10/12 w-full mx-auto flex flex-row md:justify-between">
             <div id="navbar-left" className="flex flex-row justify-between">
               <div id="navbar-left-logo" className="flex">
-                <span className="bg-raw-purple text-white text-3xl font-bold px-2 mr-3">v.</span>
-                <span className="bg-white text-raw-purple text-3xl font-bold">vital.ly</span>
+                <span className="bg-raw-purple text-white text-3xl font-bold px-2 mr-3 sm:block flex items-center">v.</span>
+                <span className="bg-white text-raw-purple text-3xl font-bold sm:block flex items-center">vital.ly</span>
               </div>
 
               <div id="hamburgerbtn" className="ml-auto md:hidden bg-raw-purple">

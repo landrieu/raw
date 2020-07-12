@@ -18,8 +18,8 @@ export default class Hub extends Component {
         return (
         <div id="footer" className="w-full mx-auto text-raw-gray">
             <div id="section-1" className="lg:flex block items-center w-full sm:w-11/12 md:w-10/12 relative py-4">
-                <div className="lg:float-left flex justify-around items-center font-bold lg:mb-0 mb-4">
-                    <div className="text-3xl sm:mr-8 mr-2">vital.ly</div>
+                <div className="lg:float-left flex sm:flex-row flex-col justify-around items-center font-bold lg:mb-0 mb-4">
+                    <div className="text-3xl sm:mb-0 mb-2 sm:mr-8 mr-2">vital.ly</div>
                     <ul className="float-left flex justify-around text-lg">
                         <li className="mx-2 cursor-pointer hover:text-gray-700">About</li>
                         <li className="mx-2 cursor-pointer hover:text-gray-700">Contact</li>

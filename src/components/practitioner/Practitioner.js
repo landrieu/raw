@@ -59,8 +59,8 @@ export default class Practitioner extends Component {
             </div>
             <div id="practitionner-title" className="text-purple-900 text-center text-2xl font-bold mx-auto my-2">Some of the best practitionners in your area</div>
             <div className="my-6 md:w-full w-11/12 mx-auto">
-                <div className="lg:8/12 md:w-6/12 w-full mx-auto my-2 text-md">
-                    <ul className="flex justify-around">
+                <div className="lg:8/12 md:w-6/12 w-6/12 text-center mx-auto my-2 text-md">
+                    <ul className="flex justify-around sm:flex-row flex-col">
                         <li className="hover:bg-purple-100 text-gray-800 rounded cursor-pointer hover:text-purple-900 active">All</li>
                         <li className="hover:bg-purple-100 text-gray-800 rounded cursor-pointer hover:text-purple-900">Naturopath</li>
                         <li className="hover:bg-purple-100 text-gray-800 rounded cursor-pointer hover:text-purple-900">Chiropracter</li>

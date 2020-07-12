@@ -13,13 +13,13 @@ export default class Media extends Component {
 
     render() {
         return (
-            <div id="media" className="flex float-right rounded border border-grey-200 lg:p-4 p-2  ml-auto bg-white lg:mb-0 mb-4">
+            <div id="media" className="flex float-right rounded border border-grey-200 lg:p-4 sm:p-2 p-1 ml-auto bg-white lg:mb-0 mb-4">
                 <div className="flex">
                     <div>
-                        <img alt="icon" src={googleIcon}></img>
+                        <img className="sm:w-auto w-12" alt="icon" src={googleIcon}></img>
                     </div>
-                    <div className="mx-auto">
-                        <div><img alt="stars" src={stars}></img></div>
+                    <div className="mx-auto flex flex-col justify-center">
+                        <div><img className="sm:w-auto w-24" alt="stars" src={stars}></img></div>
                         <div >
                             <span className="font-semibold">4.9</span> - 325 reviews
                         </div>
@@ -27,10 +27,10 @@ export default class Media extends Component {
                 </div>
                 <div className="flex">
                     <div>
-                        <img alt="icon" src={facebookIcon}></img>
+                        <img className="sm:w-auto w-12" alt="icon" src={facebookIcon}></img>
                     </div>
-                    <div className="mx-auto">
-                        <div><img alt="stars" src={stars}></img></div>
+                    <div className="mx-auto flex flex-col justify-center">
+                        <div><img className="sm:w-auto w-24" alt="stars" src={stars}></img></div>
                         <div >
                             <span className="font-semibold">4.9</span> - 325 reviews
                         </div>

@@ -10,17 +10,6 @@ nav{
     .active{
         display: block;
     }  
-    #menu-mobile > div{
-        height: 3px;
-        width: 30px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    #navbar-left{
-        width: 100%;
-        border-bottom: 1px solid #ececec;
-    }
     #menu-mobile{
         display: flex;
         -webkit-flex-direction: column;
@@ -29,8 +18,22 @@ nav{
         width: 50px;
         align-items: center;
         justify-content: space-around;
+        -webkit-justify-content:space-around;
         padding: 9px 0;
+        
+        > div{
+            height: 3px;
+            width: 30px;
+        }
     }
+}
+
+@media only screen and (max-width: 767px) {
+    #navbar-left{
+        width: 100%;
+        border-bottom: 1px solid #ececec;
+    }
+    
     #mobileMenu{
         margin-top: 0;
         position: absolute;

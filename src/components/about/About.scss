@@ -1,17 +1,16 @@
 $purpleColor: #7820a0;
 
-h2{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
 #page-2{
     width: 100%;
     min-height: 500px;
-    
     position: relative;
     background-color: $purpleColor;
+
+    h2{
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+    }
 
     #about{
         width: 80%;
@@ -22,8 +21,6 @@ h2{
         #about-info > div{
             width: 275px;
         }
-    
-        
     }
 
     #big-frame-container{
@@ -36,7 +33,6 @@ h2{
 
 @media only screen and (max-width: 1024px) {
     #page-2{
-    
         #about{
             width: 90%;
             max-width: 1200px;

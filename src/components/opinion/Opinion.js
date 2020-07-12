@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Opinion.scss';
-import CardOpinion from '../cardOpinion/CardOpinion';
+import CardOpinion from './card/CardOpinion';
 import Media from '../media/Media';
 
 import img1 from "../../images/opi_1.png";

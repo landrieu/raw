@@ -9,13 +9,8 @@ import footer_1 from '../../images/footer_1.png';
 import footer_2 from '../../images/footer_2.png';
 
 export default class Hub extends Component {
-    constructor(props){
-        super(props);
-        this.state = {};
-    }
-
     render() {
-        return (
+        return (  
         <div id="footer" className="w-full mx-auto text-raw-gray">
             <div id="section-1" className="lg:flex block items-center w-full sm:w-11/12 md:w-10/12 relative py-4">
                 <div className="lg:float-left flex sm:flex-row flex-col justify-around items-center font-bold lg:mb-0 mb-4">

@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import './Practitioner.scss';
 import eye from '../../images/Eye.png';
-import CardPractitioner from '../cardPractitioner/CardPractitioner';
+import CardPractitioner from './card/CardPractitioner';
 
 import img1 from "../../images/practi_1.png";
 import img2 from "../../images/practi_2.png";
 import img3 from "../../images/practi_3.png";
-//import img4 from "../../images/practi_4.png";
 
 export default class Practitioner extends Component {
     constructor(props){

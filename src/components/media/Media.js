@@ -6,11 +6,6 @@ import facebookIcon from "../../images/facebook-icon.svg";
 import stars from "../../images/5_stars_golden.png";
 
 export default class Media extends Component {
-    constructor(props){
-        super(props);
-        this.state = {};
-    }
-
     render() {
         return (
             <div id="media" className="flex float-right rounded border border-grey-200 lg:p-4 sm:p-2 p-1 ml-auto bg-white lg:mb-0 mb-4">

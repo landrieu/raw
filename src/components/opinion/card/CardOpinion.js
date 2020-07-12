@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './CardOpinion.scss';
-import stars from "../../images/5_stars_golden.png";
+import stars from "../../../images/5_stars_golden.png";
 
 export default class CardOpinion extends Component {
     render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './CardPractitioner.scss';
-import stars from "../../images/5_stars.png";
+import stars from "../../../images/5_stars.png";
 
 export default class CardPractitioner extends Component {
     cardStyle(i){

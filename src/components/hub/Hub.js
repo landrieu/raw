@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Hub.scss';
 
-import CardHub from '../cardHub/CardHub';
+import CardHub from './card/CardHub';
 
 import img from "../../images/Frame_2.png";
 import photo1 from "../../images/hub_1.png";
